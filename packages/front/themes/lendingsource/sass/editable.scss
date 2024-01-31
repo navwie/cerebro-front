@@ -1,0 +1,38 @@
+html {
+    body {
+        #app {
+            #EE_main_button:hover {
+                background: var(--main-button-hover-bg-color) !important;
+                color: var(--main-button-hover-color) !important;
+            }
+            #EE_big_button_1:hover {
+                background: var(--big-button-1-hover-bg-color) !important;
+                color: var(--big-button-1-hover-color) !important;
+                path {
+                    stroke: var(--big-button-1-hover-color);
+                }
+            }
+            #EE_big_button_2:hover {
+                background: var(--big-button-2-hover-bg-color) !important;
+                color: var(--big-button-2-hover-color) !important;
+                path {
+                    stroke: var(--big-button-2-hover-color);
+                }
+            }
+            #EE_big_button_3:hover {
+                background: var(--big-button-3-hover-bg-color) !important;
+                color: var(--big-button-3-hover-color) !important;
+                path {
+                    stroke: var(--big-button-3-hover-color);
+                }
+            }
+            #EE_big_button_4:hover {
+                background: var(--big-button-4-hover-bg-color) !important;
+                color: var(--big-button-4-hover-color) !important;
+                path {
+                    stroke: var(--big-button-4-hover-color);
+                }
+            }
+        }
+    }
+}

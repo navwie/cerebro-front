@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Readex Pro', sans-serif;
+}
+
+.debitcard-img {
+	border-radius: 5px;
+	max-width: 500px;
+	width: 100%;
+}
+
+.elbtnFull {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #529f3b;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.elbtnMain {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.elbtnFull:hover {
+	box-shadow: inset 0 2px 2px 0 rgb(255 255 255 / 22%), 0 233px 233px 0 rgb(255 255 255 / 12%) inset;
+	color: #fff;
+}
+
+.elbtnSub {
+    opacity: .7;
+}
+
+.middle-box {
+	background: #224082;
+}
+
+@media screen and (max-width: 991.98px) {
+	.elbtnMain {
+	    font-size: 36px;
+	}
+}
+
+@media screen and (max-width: 767.98px) {
+	.elbtnMain {
+	    font-size: 26px;
+	}
+}

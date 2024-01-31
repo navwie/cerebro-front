@@ -1,0 +1,29 @@
+.unsubscribe-form 
+{
+    .input-group-text {
+        height: 48px;
+        width: 43px;
+        text-align: center;
+    }
+
+    
+} 
+
+@media (max-width: 992px) {
+    .page-section {
+        .unsubscribe-form {
+            margin: auto;
+        }
+    }
+}
+
+
+@media (max-width: 765px) {
+    .page-section {
+        .unsubscribe-form {
+            margin: auto;
+            width: 100%;
+            padding: 0px;
+        }
+    }
+}

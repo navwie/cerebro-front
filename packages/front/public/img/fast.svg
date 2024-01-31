@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="64.888" viewBox="0 0 84 64.888">
+    <defs>
+        <style>.a{fill:#69ad74;}</style>
+    </defs>
+    <g transform="translate(4.543 20.139)">
+        <rect class="a" width="9.647" height="4.922"/>
+    </g>
+    <g transform="translate(4.543 39.827)">
+        <rect class="a" width="9.647" height="4.922"/>
+    </g>
+    <g transform="translate(0 29.983)">
+        <rect class="a" width="14.19" height="4.922"/>
+    </g>
+    <g transform="translate(19.111)">
+        <path class="a"
+              d="M148.933,58.245a32.444,32.444,0,1,0,32.444,32.444A32.481,32.481,0,0,0,148.933,58.245Zm0,59.966a27.522,27.522,0,1,1,27.522-27.522A27.554,27.554,0,0,1,148.933,118.211Z"
+              transform="translate(-116.489 -58.245)"/>
+    </g>
+    <g transform="translate(48.223 17.77)">
+        <path class="a" d="M298.852,182.454v-15.9H293.93v18.5l12.683,8.643,2.772-4.067Z"
+              transform="translate(-293.93 -166.557)"/>
+    </g>
+</svg>

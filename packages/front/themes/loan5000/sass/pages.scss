@@ -1,0 +1,115 @@
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #202020 !important;
+}
+
+.breadcrumb-item a:hover {
+    color: #000a3a !important;
+}
+
+.breadcrumb {
+    position: absolute !important;
+    width: auto !important;
+    top: 50% !important;
+    left: auto !important;
+    right: 3rem !important;
+    margin: 0 !important;
+    background-color: transparent !important;
+    padding: 0 !important;
+    font-size: 90%;
+    transform: translateY(-50%);
+}
+
+.breadcrumb a {
+    color: rgb(255, 255, 255);
+}
+
+.breadcrumb a:hover {
+    color: var(--main-color);
+}
+
+.breadcrumb i {
+    width: auto !important;
+}
+
+#page-title {
+    position: relative;
+    padding: 1rem 0;
+    background-color: var(--main-color);
+    border-bottom: 1px solid #EEE;
+    margin-top: 20px;
+}
+
+#page-title .container {
+    position: relative;
+}
+
+#page-title h1 {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.text-gray {
+    color: #202020 !important;
+}
+
+.unsubscribe-btn {
+    background-color: var(--main-color)!important;
+}
+
+.unsubscribe-btn:hover {
+    color: black !important;
+    background-color: #b3ddf4 !important;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+}
+
+@media screen and (min-width: 767px) {
+    #page-title div.row div {
+        padding-left: 30px !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #captcha {
+        padding-right: 200px;
+    }
+
+    #page-title div.row div {
+        padding-left: 50px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #captcha {
+        padding-right: 150px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    #captcha {
+        padding-right: 175px;
+    }
+
+    #page-title {
+        margin-top: 0px;
+    }
+
+    #page-title h1 {
+        padding-top: 0px !important;
+    }
+}
+
+
+
+

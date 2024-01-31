@@ -1,0 +1,10 @@
+html {
+    body {
+        #app {
+            .btn-get-started:hover, .get-started:hover, .get-started-2:hover, .get-started-1:hover  {
+                background: var(--main-button-hover-bg-color) !important;
+                color: var(--main-button-hover-color) !important;
+            }
+        }
+    }
+}

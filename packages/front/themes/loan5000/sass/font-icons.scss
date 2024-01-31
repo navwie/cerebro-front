@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "font-icons";
+    src: url("fonts/font-icons.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "lined-icons";
+    src: url("fonts/lined-icons.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Simple-Line-Icons";
+    src: url("fonts/Simple-Line-Icons.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+[class^="icon-"],
+[class*=" icon-"],
+[class^="icon-line-"],
+[class*=" icon-line-"],
+[class^="icon-line2-"],
+[class*=" icon-line2-"],
+.side-header .primary-menu ul > li.sub-menu > a:after,
+.docs-navigation ul ul li.current a:after {
+    display: inline-block;
+    font-family: "font-icons";
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-line-"],
+[class*=" icon-line-"] {
+    font-family: "lined-icons";
+}
+
+[class^="icon-line2-"],
+[class*=" icon-line2-"] {
+    font-family: "Simple-Line-Icons";
+}
+
+.icon-lg {
+    font-size: 1.3333333333333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.icon-2x {
+    font-size: 2em;
+}
+
+.icon-stacked {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.icon-angle-left:before {
+    content: "\e7a4";
+}
+
+.icon-angle-right:before {
+    content: "\e7a5";
+}
+
+.icon-angle-up:before {
+    content: "\e7a6";
+}
+
+.icon-angle-down:before {
+    content: "\e7a7";
+}
+
+
+.icon-email3:before {
+    content: "\e866";
+}
+
+.icon-line-mail:before {
+    content: "\e992";
+}
+
+.icon-line-dollar-sign:before {
+    content: "\e957";
+    color: #000a3c;
+}
+
+
+.icon-line-lock:before {
+    content: "\e98f";
+}
+
+.icon-double-angle-left:before {
+    content: "\e7a0";
+}
+
+.icon-double-angle-right:before {
+    content: "\e7a1";
+    // color: var(--main-color);
+}
+
+.icon-double-angle-up:before {
+    content: "\e7a2";
+}
+
+.icon-double-angle-down:before {
+    content: "\e7a3";
+}
+.icon-plus1:before {
+    content: "\e71d";
+}
+
+.icon-line2-like:before {
+    content: "\e068";
+}
+
+.icon-line-clock:before {
+    content: "\e939";
+}
+
+.icon-line-wifi:before {
+    content: "\ea0e";
+}
+
+.icon-minus1:before {
+    content: "\e71e";
+}
+
+.icon-line-clipboard:before {
+    content: "\e938";
+}
+
+.icon-line-briefcase:before {
+    content: "\e926";
+}
+
+.icon-line-folder-plus:before {
+    content: "\e96e";
+}
+
+.icon-line-folder:before {
+    content: "\e96c";
+}

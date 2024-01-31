@@ -1,0 +1,38 @@
+html{
+    body{
+        #app{
+            span[data-bs-toggle='modal'] {
+                cursor: pointer;
+                color: var(--main-button-color);
+            }
+
+            span[data-bs-toggle='modal']:hover {
+                color: #222;
+            }
+
+            .welcome-back {
+                width: 700px;
+                max-width: 100%;
+                margin: auto;
+            }
+
+            .welcome-back .data-review {
+                border: 2px solid transparent;
+            }
+
+            .welcome-back .data-review.select2-wrapper {
+                border: none;
+            }
+
+            .welcome-back .data-review.not-valid {
+                border-color: #F69292;
+            }
+
+            .welcome-back .data-review input[type="text"] {
+                width: 100%;
+                outline: none;
+            }
+
+        }
+    }
+}

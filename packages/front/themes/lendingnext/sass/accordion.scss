@@ -1,0 +1,99 @@
+
+
+.accordion-btn {
+    background: #fbfbfb;
+    // background: #777;
+    border-radius: 10px;
+    color: #4b4b4b;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 600;
+
+    p {
+        margin-top: 0;
+    }
+}
+
+.my-accordion-title {
+    margin: 15px 0;
+    padding: 22px 22px 22px 22px;
+    font-weight: 700;
+    color: #4B4B4B;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.my-collapse {
+    color: #4b4b4b;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    max-height: 100%;
+    margin: 15px 0;
+    border-radius: 5px;
+    background: #fbfbfb;
+    -moz-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.myAccordionIcon {
+    transition: all 0.5s ease;
+}
+
+.myAccordionIconCollapse {
+    transition: all 0.5s ease;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg); 
+    -ms-transform: rotate(180deg);
+}
+
+.my-accordion-text {
+    padding: 0px 22px 10px;
+}
+
+.accordion-image {
+    width: 84px;
+}
+
+@media (max-width: 992px) {
+
+    .accordion-btn {
+        min-height: 75px;
+    }
+    .my-accordion-title {
+        font-size: 16px;
+    }
+
+    .my-accordion-text {
+        padding: 0px 20px;
+        font-size: 14px;
+        line-height: 18.20px;
+    }
+    .accordion-image {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 765px) {
+    .accordion-btn {
+        min-height: 45px;
+    }
+    .my-accordion-title {
+        font-size: 16px;
+    }
+
+    .my-accordion-text {
+        padding: 0px 20px;
+        font-size: 14px;
+        line-height: 18.20px;
+    }
+    .accordion-image {
+        margin-right: 20px;
+    }
+
+}

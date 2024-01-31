@@ -1,0 +1,65 @@
+html{
+    body{
+        #app{
+            .range-slider {
+                border-radius: 4px;
+                height: 6px;
+                background: #E6E6E6;
+                position: relative;
+            }
+
+            .range-slider .done {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                /*width: 12.5%;*/
+                background: var(--main-color);
+                border-radius: 4px;
+            }
+
+            input.check-submit-sms {
+                appearance: none;
+                background-color: #fff;
+                margin: 7px 5px;
+                font: inherit;
+                color: currentColor;
+                width: 15px;
+                height: 15px;
+                border: 0.15em solid currentColor;
+                border-radius: 0.15em;
+                border-color: white;
+                transform: translateY(-0.075em);
+                display: grid;
+                place-content: center;
+            }
+
+            input.check-submit-sms::before {
+                content: "";
+                width: 0.65em;
+                height: 0.65em;
+                transform: scale(0);
+                transition: 120ms transform ease-in-out;
+                box-shadow: inset 1em 1em #28a745;
+                transform-origin: bottom left;
+                clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+            }
+
+            input.check-submit-sms:checked::before {
+                transform: scale(1);
+            }
+
+            .label-submit-sms {
+                color: white;
+            }
+
+            .mx-datepicker {
+                width: unset !important;
+            }
+
+            .mx-datepicker, .mx-input-wrapper, .mx-input-wrapper input {
+                width: 100% !important;
+            }
+        }
+    }
+}

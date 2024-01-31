@@ -1,0 +1,64 @@
+html {
+    body {
+        #app {
+            .waiting-page-div-1 {
+                background: #F0F0F0;
+                border-bottom: solid 2px white;
+                height: 215px;
+
+                p {
+                    padding-left: 0;
+                    font-family: Roboto;
+                    font-weight: 700;
+                    font-size: 22px;
+                    color: #4B4B4B;
+                    text-transform: uppercase;
+                }
+            }
+
+            .slider-parallax .slider-inner {
+                position: fixed;
+            }
+
+            .percentages {
+                font-family: Roboto;
+                font-size: min(200px, 50vw);
+                font-weight: 700;
+                color: var(--main-button-color);
+            }
+
+            .done {
+                margin-top: -60px !important;
+                font-family: Roboto;
+                font-size: 64px;
+                font-weight: 700;
+                color: var(--main-button-color);
+            }
+
+            .waiting-font {
+                font-family: Roboto;
+                font-size: 22px;
+                font-weight: 400;
+                color: #4B4B4B;
+            }
+
+            .form-div-2 {
+                min-height: 500px;
+                background-color: #ebebeb;
+                padding-top: 30px;
+
+                .form-wrapper {
+                    width: 405px !important;
+                    max-width: 100vw;
+                    text-align: left;
+                    padding: 0 10px;
+
+                    p {
+                        margin-top: 35px;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}

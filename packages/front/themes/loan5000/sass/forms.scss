@@ -1,0 +1,74 @@
+
+.block-form-2 .form-control {
+    padding: 7px 8px;
+    background-color: #ffffff !important;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+
+.block-form-2 .form-control:not(.error) {
+    border-color: #DDD;
+}
+
+.block-form-2 .form-control:disabled {
+    background-color: lightgray!important;
+}
+
+.block-form-2 .form-control::-moz-placeholder {
+    color: #DDD;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.block-form-2 .form-control:-ms-input-placeholder {
+    color: #DDD;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.block-form-2 .form-control::-webkit-input-placeholder {
+    color: #DDD;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.block-form-2 textarea.form-control {
+    resize: none;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.block-form-2 label:not(.custom-control-label):not(.error),.block-form-2 h3:not(.custom-control-label):not(.error) {
+    text-transform: none;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #777;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.block-form-2 .social-icon {
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.block-form-2 .nav-pills .nav-link.active,
+.block-form-2 .nav-pills .show > .nav-link,
+.block-form-2 .nav-pills .nav-link:not(.active) {
+    background-color: var(--main-color);
+}
+
+#wrapper {
+    position: relative;
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFF;
+}

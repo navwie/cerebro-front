@@ -1,0 +1,18 @@
+html {
+    body {
+        #app {
+            .CE_card_arrow {
+                color: var(--main-color);
+            }
+            .CE_wu_sublabel {
+                background-color: var(--main-color);
+                color: #fff;
+            }
+            .fbox-icon:hover {
+                i {
+                    color: var(--main-color);
+                }
+            } 
+        }
+    }
+}

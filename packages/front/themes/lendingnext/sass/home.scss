@@ -1,0 +1,661 @@
+html {
+    body {
+        #app {
+            font-family: Roboto !important;
+            .zi-5 {
+                z-index: 5;
+            }
+            .zi-6 {
+                z-index: 6;
+            }
+
+            .mt-100 {
+                margin-top: 100px;
+            }
+
+            .mb-100 {
+                margin-bottom: 100px;
+            }
+            .mb-33 {
+                margin-bottom: 33px;
+            }
+
+            .green-label {
+                font-family: Inter;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                margin-bottom: 43px;
+            }
+
+            .separator {
+                display: block;
+                height: 2px;
+                background: #8c8c8c;
+                position: relative;
+            }
+
+            .loans-section {
+                position: relative;
+                min-height: 751px;
+                border-radius: 10px;
+                background-size: cover;
+                background-position: center;
+
+                .hero {
+                    background-size: cover;
+                    background-position: center;
+                    min-height: 900px;
+                    position: absolute;
+                    bottom: -180px;
+                    right: -53px;
+                    width: 700px;
+                    z-index: 2;
+                }
+
+                .texts {
+                    position: relative;
+                    z-index: 3;
+                    margin-left: 56px;
+                    margin-top: 130px;
+                    .title {
+                        color: var(--header-text-color);
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 28.6px;
+                    }
+                    .sub-title {
+                        margin-top: 23px;
+                        color: var(--header-text-color);
+                        font-size: 75px;
+                        font-weight: 900;
+                        line-height: 97.5px;
+                        width: 90%;
+                    }
+                    .description {
+                        background: var(--header-bg-color);
+                        display: inline;
+                        color: #3a3a3a;
+                        font-size: 25px;
+                        font-weight: 400;
+                        padding: 5px;
+                        line-height: 40px;
+                        width: 75%;
+                        padding-left: 5px;
+                        padding-right: 5px;
+                        margin-top: 35px;
+                        .green {
+                            color: var(--main-color);
+                            font-size: 25px;
+                            font-weight: 700;
+                            line-height: 32.5px;
+                        }
+                    }
+
+                    .get-started {
+                        // background: linear-gradient(180deg, var(--main-color) 0%, var(--button-color) 100%);
+                        background: linear-gradient(180deg, var(--button-color-second) 0%, var(--main-color) 100%);
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        border-radius: 6px;
+                        border: none;
+                        color: white;
+                        font-size: 22px;
+                        font-weight: 700;
+                        margin-top: 40px;
+                        margin-bottom: 40px;
+                        padding: 15px 50px 15px 50px;
+                        min-width: 200px;
+                        svg {
+                            margin-left: 5px;
+                            vertical-align: initial;
+                        }
+                    }
+                }
+            }
+
+            .faq {
+                position: relative;
+                margin-bottom: 130px;
+                padding: 50px;
+            }
+
+            .how-it-works {
+                position: relative;
+                padding: 57px;
+                // background: #888;
+                .image-wrapper {
+                    position: relative;
+                    margin-bottom: 20px;
+                    margin-top: 10px;
+                }
+
+                .image-wrapper::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    background: rgba(0, 0, 0, 0.5);
+                    opacity: 1;
+                    transition: opacity 0.5s ease;
+                    z-index: 1;
+                    border-radius: 10px;
+                }
+
+                .image-wrapper:hover::before {
+                    opacity: 0;
+                }
+
+                .image-wrapper.hover-effect::before {
+                    opacity: 0;
+                }
+
+                .card-img-top {
+                    transition: opacity 0.5s ease;
+                    display: block;
+                    width: 100%;
+                }
+
+                .card {
+                    margin-top: 10px;
+                    z-index: 5;
+                    border: none;
+                    line-height: 30px;
+                    position: relative;
+
+                    .card-body {
+                        background: #fbfbfb;
+                        // background: #888;
+                        border-radius: 10px;
+                        margin-bottom: 15px;
+                        .card-title {
+                            color: var(--main-color);
+                            font-size: 22px;
+                            font-family: Inter;
+                            font-weight: 700;
+                            margin-bottom: 32px;
+                        }
+                        .card-text {
+                            color: #444;
+                            font-size: 20px;
+                            font-family: Inter;
+                            font-weight: 400;
+                            line-height: 26px;
+                        }
+                    }
+
+                    .green-cube {
+                        width: 63px;
+                        height: 63px;
+                        color: #fff;
+                        font-size: 34px;
+                        font-weight: 600;
+                        background-color: var(--main-color);
+                        position: absolute;
+                        bottom: 70px;
+                        left: 20px;
+                        transform: translateY(50%);
+                        text-align: center;
+                        line-height: 63px;
+                        border-radius: 10px;
+                        z-index: 2;
+                    }
+                }
+            }
+
+            .why-choose-us::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: var(--mobile-menu-bg-color);
+                opacity: 0.9;
+                z-index: 2;
+            }
+
+            .why-choose-us {
+                padding: 80px 50px 80px 50px;
+                position: relative;
+
+                .get-started {
+                    position: relative;
+                    svg {
+                        margin-left: 10px;
+                        vertical-align: initial;
+                    }
+                }
+                .big-text {
+                    color: var(--why-us-text-color);
+                    font-size: 65px;
+                    font-weight: 800;
+                    line-height: 84.5px;
+                }
+                .mh-0 {
+                    max-height: 0px;
+                }
+                .card {
+                    position: relative;
+                    z-index: 3;
+                    background: var(--why-us-cards-bg-color);
+                    transition: transform 0.3s ease;
+
+                    .card-body {
+                        color: var(--why-us-cards-text-color) !important;
+                        padding: 43px;
+                        border-radius: 10px;
+                        font-size: 20px;
+                        font-family: Inter;
+                        font-weight: 400;
+                        line-height: 26px;
+                    }
+
+                    .card-title {
+                        font-size: 22px;
+                        font-weight: 700;
+                        line-height: 28.6px;
+                        font-family: Inter;
+                        font-style: normal;
+                        font-weight: 700;
+                    }
+
+                    .card-text {
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        text-align: justify;
+                        font-family: Roboto;
+                    }
+                }
+
+                .card:hover {
+                    transform: scale(1.05);
+                }
+
+                .scale-effect {
+                    transform: scale(1.05);
+                    transition: transform 0.3s ease;
+                }
+
+                hr {
+                    color: white;
+                    font-size: 65px;
+                    font-weight: 800;
+                    line-height: 84.5px;
+                    margin: 118px 0px 85px 0px;
+                }
+
+                .get-started {
+                    background: linear-gradient(180deg, var(--button-color-second) 0%, var(--main-color) 100%);
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                    border-radius: 6px;
+                    border: none;
+                    color: white;
+                    font-size: 22px;
+                    font-weight: 700;
+                    margin-top: 70px;
+                    padding: 15px 15px;
+                    min-width: 500px;
+                    z-index: 5;
+                }
+
+                .hero-1 {
+                    position: relative;
+                    width: 680px;
+                    top: -820px;
+                    float: right;
+                    right: -50px;
+                    z-index: 4;
+                }
+
+                .h-300 {
+                    max-height: 730px !important;
+                }
+            }
+
+            @media (max-width: 992px) {
+                .btn-get-started {
+                    position: absolute;
+                    right: 65px;
+                    top: 12px;
+                    display: block !important;
+                }
+
+                .faq {
+                    padding-left: 33px;
+                    padding-right: 33px;
+                    margin-top: 100px;
+                    font-family: Roboto !important;
+                }
+
+                .loans-section {
+                    min-height: 807px;
+                    font-family: Roboto !important;
+                    .hero {
+                        background-size: contain;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        position: absolute;
+                        bottom: -270px;
+                        right: -30px;
+                        width: 450px;
+                    }
+                    .texts {
+                        margin-left: 30px;
+                        width: 55%;
+                        .title {
+                            font-size: 22px;
+                            font-weight: 700;
+                            line-height: 28.6px;
+                        }
+                        .sub-title {
+                            font-size: 60px;
+                            line-height: 78px;
+                            width: 100%;
+                        }
+                        .description {
+                            color: #3a3a3a;
+                            width: 80%;
+                            padding-left: 5px;
+                            padding-right: 5px;
+                            margin-top: 35px;
+                            .green {
+                                font-size: 25px;
+                                font-weight: 700;
+                                line-height: 32.5px;
+                            }
+                        }
+
+                        .get-started {
+                            background: linear-gradient(180deg, var(--button-color-second) 0%, var(--main-color) 100%);
+                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                            border-radius: 6px;
+                            border: none;
+                            color: white;
+                            font-size: 22px;
+                            font-weight: 700;
+                            margin-top: 60px;
+                            padding: 15px 50px 15px 50px;
+                        }
+                    }
+                }
+
+                .how-it-works {
+                    position: relative;
+                    padding: 40px 33px 0px 33px;
+                    margin-top: -5px;
+                    font-family: Roboto !important;
+                    .green-label {
+                        margin-bottom: 25px;
+                    }
+                    .card {
+                        .card-body {
+                            min-height: 0px;
+                            .card-title {
+                                font-size: 20px;
+                                font-family: Inter;
+                            }
+                            .card-text {
+                                font-size: 16px;
+                                line-height: 20.8px;
+                            }
+                        }
+                        .green-cube {
+                            width: 53px;
+                            height: 53px;
+                            bottom: 70px;
+                            text-align: center;
+                            line-height: 50px;
+                            border-radius: 5px;
+                        }
+
+                        
+                    }
+                }
+
+                .why-choose-us {
+                    background: var(--why-us-bg-color);
+                    padding-top: 50px;
+                    font-family: Roboto !important;
+                    padding: 80px 33px 80px 33px;
+
+                    .zi-5 {
+                        z-index: 5;
+                    }
+                    .big-text {
+                        line-height: 71.5px;
+                        font-size: 55px;
+                        font-weight: 800;
+                    }
+                    .card {
+                        img {
+                            margin-top: 0px;
+                        }
+                        .card-body {
+                            padding: 30px;
+                            border-radius: 10px;
+                        }
+                        .card-title {
+                            font-size: 22px;
+                            font-weight: 700;
+                            line-height: 45.6px;
+                            margin-bottom: 25px;
+                        }
+                        .card-text {
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 26px;
+                        }
+                    }
+
+                    .container-fluid {
+                        .hr {
+                            height: 45px;
+                            color: #fff;
+                            opacity: 1 !important;
+                        }
+                    }
+
+                    .get-started {
+                        border: none;
+                        color: white;
+                        font-size: 22px;
+                        font-weight: 700;
+                        margin-top: 70px;
+                        min-width: 50%;
+                    }
+
+                    .hero-1 {
+                        position: relative;
+                        width: 600px;
+                        top: -750px;
+                        z-index: 4;
+                        right: -35px;
+                    }
+                }
+            }
+
+            @media (max-width: 765px) {
+                #body {
+                    overflow-x: hidden !important;
+                }
+                .green-label {
+                    margin-left: 13px;
+                    margin-bottom: 0px;
+                    font-size: 18px;
+                }
+
+                .btn-get-started {
+                    position: absolute;
+                    right: 65px;
+                    top: 12px;
+                    display: block !important;
+                }
+
+                .faq {
+                    padding-left: 13px;
+                    padding-right: 13px;
+                    margin-top: 0px;
+                }
+
+                .loans-section {
+                    min-height: 1223px;
+                    border-radius: 20px;
+                    .hero {
+                        background-size: contain;
+                        background-position: center bottom !important;
+                        background-repeat: no-repeat;
+                        right: 0px;
+                        bottom: 6px;
+                    }
+                    .texts {
+                        margin-left: 10px;
+                        width: 100%;
+                        .title {
+                            font-size: 22px;
+                            font-weight: 700;
+                            line-height: 28.6px;
+                            margin-top: 155px;
+                        }
+                        .sub-title {
+                            font-size: 55px;
+                            line-height: 80px;
+                            width: 100%;
+                            margin-top: 35px;
+                        }
+                        .description {
+                            width: 80%;
+                            padding-left: 5px;
+                            padding-right: 5px;
+                            margin-top: 45px;
+                            .green {
+                                font-size: 25px;
+                                font-weight: 700;
+                                line-height: 32.5px;
+                            }
+                        }
+
+                        .get-started {
+                            background: linear-gradient(180deg, var(--button-color-second) 0%, var(--main-color) 100%);
+                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                            border-radius: 6px;
+                            border: none;
+                            color: white;
+                            font-size: 22px;
+                            font-weight: 700;
+                            margin-top: 60px;
+                            padding: 15px 50px 15px 50px;
+                            width: 95%;
+                        }
+                    }
+                }
+
+                .how-it-works {
+                    position: relative;
+                    padding-top: 84px;
+                    padding-left: 13px;
+                    padding-right: 13px;
+                    .card {
+                        .card-body {
+                            min-height: 0px;
+                            .card-title {
+                                font-size: 18px;
+                                font-family: Inter;
+                            }
+                            .card-text {
+                                font-size: 16px;
+                                line-height: 20.8px;
+                            }
+                        }
+                        .green-cube {
+                            width: 53px;
+                            height: 53px;
+                            bottom: 60px;
+                            left:15px;
+                            text-align: center;
+                            line-height: 50px;
+                            border-radius: 5px;
+                        }
+
+                        .image-wrapper {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+
+                .why-choose-us {
+                    background: var(--why-us-bg-color);
+                    padding: 50px 33px 50px 33px;
+                    .green-label {
+                        margin-bottom: 40px;
+                        margin-left: 2px;
+                    }
+
+                    .zi-5 {
+                        z-index: 5;
+                    }
+                    .big-text {
+                        line-height: 52px;
+                        font-size: 40px;
+                    }
+                    .card {
+                        margin-bottom: 0px;
+                        .card-body {
+                            padding: 30px;
+                            border-radius: 10px;
+                        }
+                        .card-title {
+                            margin-bottom: 25px;
+                            text-align: justify;
+                            line-height: 130%;
+                            font-size: 20px;
+                        }
+                        .card-text {
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 130%;
+                        }
+
+                        img {
+                            margin-top: 0px;
+                        }
+                    }
+
+                    .container-fluid {
+                        .hr {
+                            height: 45px;
+                            color: #fff;
+                            opacity: 1 !important;
+                        }
+                    }
+
+                    .get-started {
+                        border: none;
+                        color: white;
+                        font-size: 22px;
+                        font-weight: 700;
+                        min-width: 100%;
+                        z-index: 5;
+                    }
+
+                    .hero-1 {
+                        top: -420px;
+                        width: 400px;
+                        right: -35px;
+                    }
+                }
+
+                .accordion-btn {
+                    padding-left: 12px;
+                    padding-right: 12px;
+                }
+            }
+        }
+    }
+}

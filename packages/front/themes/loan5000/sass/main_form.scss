@@ -1,0 +1,128 @@
+
+input.check-submit-sms {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: var(--main-color);
+    margin: 7px 5px;
+    font: inherit;
+    width: 52px;
+    height: 15px;
+    border: 1px solid var(--main-color);
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    display: grid;
+    place-content: center;
+}
+
+input.check-submit-sms::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em white;
+    transform-origin: bottom left;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+}
+
+input.check-submit-sms:checked::before {
+    transform: scale(1);
+}
+
+.label-submit-sms {
+    color: white;
+}
+
+.rad-label {
+    display: flex;
+    align-items: center;
+
+    border-radius: 100px;
+    padding: 14px 16px;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.rad-label:hover,
+.rad-label:focus-within {
+    background: hsla(0, 0%, 80%, .14);
+}
+
+.rad-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.rad-design {
+    width: 16px;
+    height: 16px;
+    border-radius: 100px;
+
+    background: var(--main-color);
+    position: relative;
+}
+
+.rad-design::before {
+    content: '';
+
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+
+    background: hsl(0, 0%, 90%);
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.rad-input:checked + .rad-design::before {
+    transform: scale(0);
+}
+
+.rad-text {
+    color: #777;
+    margin-left: 14px;
+    letter-spacing: 0;
+    font-size: 14px;
+    font-weight: 500;
+
+    transition: .3s;
+}
+
+.rad-input:checked ~ .rad-text {
+    color: hsl(0, 0%, 40%);
+}
+
+input:disabled + .rad-design {
+    opacity: .5;
+}
+
+.click-able {
+    cursor: pointer;
+    background-color: var(--main-color) !important;
+    pointer-events: unset !important;
+    color: white !important;
+}
+
+.nav-pills .nav-link {
+    padding: 10px 17px;
+    color: #FFF;
+    background-color: var(--themecolor);
+    border: 1px solid transparent;
+}
+
+.block-form-2 .nav-pills .nav-link:not(.active) {
+    opacity: .7;
+}
+
+.block-form-2 .nav-pills .nav-link.active ~ .nav-link {
+    color: #666;
+    background-color: #F5F5F5;
+    pointer-events: none;
+}
